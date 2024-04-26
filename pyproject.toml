@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dataops"
+version = "0.1.0"
+description = "Marketing Data Operations"
+authors = ["Arpit Anand"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+recordlinkage = "^0.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
